@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--  <script src="./js/objetos.js"></script> -->
     <title>Pagina principal Sky-Importaciones</title>
     <!-- Importacion de Bootstrap -->
     <link
@@ -19,7 +18,7 @@
   <body>
     <!-- Menu -->
     <nav
-      class="navbar navbar-expand-lg navbar-light"
+      class="navbar navbar-expand-lg navbar-light sticky-top"
       style="background-color: #54b9ac"
     >
       <div class="container-fluid">
@@ -61,7 +60,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nosotros</a>
+              <a class="nav-link" href="#">Ofertas</a>
             </li>
 
             <li class="nav-item">
@@ -114,7 +113,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="./img/carrousel/drone_1.jpg"
+            src="./img/carrousel/notebook.jpg"
             class="d-block w-100"
             alt="..."
           />
@@ -128,7 +127,7 @@
         </div>
         <div class="carousel-item">
           <img
-            src="./img/carrousel/drone_3.jpg"
+            src="./img/carrousel/smartwatch.jpg"
             class="d-block w-100"
             alt="..."
           />
@@ -154,16 +153,267 @@
       </button>
     </div>
 
-    <div class="container">
-      <img src="" class="layoutAvatar" id="avatar" alt="avatar" />
-      <h1 id="userTitle" class="display-3 py-5">Bienvenido</h1>
-      <!--       <button id="buttonBuy" class="btn btn-danger">
-        Click para monstrar los productos
-      </button> -->
+    <!-- ALERTAS -->
+    <!-- ANADIDO -->
+    <div
+      class="alert container position-sticky top-0 alert-primary hide"
+      role="alert"
+    >
+      Producto agregado exitosamente!
     </div>
-    <div class="container display-3 py-5">
-      <h2>Detalle de su compra</h2>
+
+    <!-- ELIMINADO -->
+    <div
+      class="alert container position-sticky top-0 alert-danger remove"
+      role="alert"
+    >
+      Producto eliminado!
     </div>
+
+    <!--TODO: Creacion de productos Inicio -->
+    <h2 class="container">Productos</h2>
+    <div class="container mt-3">
+      <!-- row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 -->
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="./img/categorias/drone.jpg"
+              class="card-img-top"
+              height="200px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Drone I</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="text-primary">
+                Precio: <span class="precio">$1000</span>
+              </h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="./img/categorias/celulares.jpg"
+              class="card-img-top"
+              height="200px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Celulares</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="text-primary">
+                Precio: <span class="precio">$1000</span>
+              </h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="./img/categorias/notebooks.jpg"
+              class="card-img-top"
+              height="200px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Notebook</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="text-primary">
+                Precio: <span class="precio">$1000</span>
+              </h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="./img/categorias/auris.png"
+              class="card-img-top"
+              height="200px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">AirPods</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="text-primary">
+                Precio: <span class="precio">$1000</span>
+              </h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEGUNDA FILA -->
+
+      <div class="row mt-4">
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="./img/categorias/celulares.jpg"
+              class="card-img-top"
+              height="200px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Celulares</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="text-primary">
+                Precio: <span class="precio">$1000</span>
+              </h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="./img/categorias/smartWatch.jpg"
+              class="card-img-top"
+              height="200px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">SmartWatch</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="text-primary">
+                Precio: <span class="precio">$1000</span>
+              </h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="./img/categorias/drone.jpg"
+              class="card-img-top"
+              height="200px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Drone II</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="text-primary">
+                Precio: <span class="precio">$1000</span>
+              </h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="./img/categorias/auris.png"
+              class="card-img-top"
+              height="200px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">AirPods II</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="text-primary">
+                Precio: <span class="precio">$1000</span>
+              </h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary button">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARRITO DE COMPRAS -->
+    <div class="">
+      <br />
+      <table class="table bg-light">
+        <thead>
+          <tr class="text-primary">
+            <th scope="col">#</th>
+            <th scope="col">Productos</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+      </table>
+    </div>
+
+    <br /><br />
+
+    <!-- BOTON COMPRAR -->
+    <div class="row mx-4">
+      <div class="col">
+        <h3 class="itemCartTotal">Total: 0</h3>
+      </div>
+      <div class="col d-flex-justify-content-end">
+        <button class="btn btn-success">Comprar</button>
+      </div>
+    </div>
+
+    <footer class="bg-dark p-3 mt-5">
+      <p class="text-center m-0 text-muted">Sky-Importaciones</p>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -171,5 +421,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/script.js"></script>
+    <!--     <script src="./js/script.js"></script> -->
   </body>
 </html>
