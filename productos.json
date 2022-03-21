@@ -1,0 +1,197 @@
+{
+  "status": "success",
+  "items": [
+    {
+      "id": 1,
+      "title": "Redragon H350 Pandora 2",
+      "price": "14.000",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Auriculares/auri_1.jpg",
+      "category": "auriculares"
+    },
+    {
+      "id": 2,
+      "title": "Cat Ear VZV-23M",
+      "price": 15.999,
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Auriculares/auri_2.jpg",
+      "category": "auriculares"
+    },
+    {
+      "id": 3,
+      "title": "Auriculares Gamer SteelSeries Arctis Pro 5",
+      "price": 45.389,
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Auriculares/auri_3.webp",
+      "category": "auriculares"
+    },
+    {
+      "id": 4,
+      "title": "Apple AirPods Blanco",
+      "price": 26.499,
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Auriculares/auri_4.jpg",
+      "category": "auriculares"
+    },
+    {
+      "id": 5,
+      "title": "Auriculares In-Ear Sony WF-1000XM4",
+      "price": 18.999,
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Auriculares/auri_5.jpg",
+      "category": "auriculares"
+    },
+    {
+      "id": 6,
+      "title": "Auriculares In-Ear Samsung Galaxy  Buds Pro negro",
+      "price": 24.999,
+      "descrip_1": "320GB Slim",
+      "image": "img/categorias/Auriculares/auri_6.jpg",
+      "category": "auriculares"
+    },
+    {
+      "id": 7,
+      "title": "Mini Drone DJI Mavic Mini 2 DRDJI018",
+      "price": "145.000",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Drone/drone_1.png",
+      "category": "drone"
+    },
+    {
+      "id": 8,
+      "title": "Drone Daming DM107S",
+      "price": "16.000",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Drone/drone_2.webp",
+      "category": "drone"
+    },
+    {
+      "id": 9,
+      "title": "Drone DJI Mavic 3 Pro Premium 4K",
+      "price": "569.000",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Drone/drone_3.jpg",
+      "category": "drone"
+    },
+    {
+      "id": 10,
+      "title": "Drone Parrot Thermal 4k",
+      "price": "546.000",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Drone/drone_4.webp",
+      "category": "drone"
+    },
+    {
+      "id": 11,
+      "title": "Drone Phantom 4 Pro Obsidian",
+      "price": "539.000",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Drone/drone_5.jpg",
+      "category": "drone"
+    },
+    {
+      "id": 12,
+      "title": "Notebook Asus ZenBook UX581LV",
+      "price": "2.367.300",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Notebook/nbk_1.webp",
+      "category": "notebook"
+    },
+    {
+      "id": 13,
+      "title": "Asus Rog Strix G533qs",
+      "price": "1.066.000",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Notebook/nbk_2.jpg",
+      "category": "notebook"
+    },
+    {
+      "id": 14,
+      "title": "Macbook Pro 14' M1 Pro",
+      "price": "952.000",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Notebook/nbk_3.jpg",
+      "category": "notebook"
+    },
+    {
+      "id": 15,
+      "title": "Lenovo Legion 5 17",
+      "price": "450.999",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Notebook/nbk_4.jpg",
+      "category": "notebook"
+    },
+    {
+      "id": 16,
+      "title": "Notebook Dell AlienWare M15",
+      "price": "389.000",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Notebook/nbk_5.jpg",
+      "category": "notebook"
+    },
+    {
+      "id": 17,
+      "title": "Huawei P50 Pro",
+      "price": "400.000",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Celulares/celu_1.webp",
+      "category": "celulares"
+    },
+    {
+      "id": 18,
+      "title": "Apple iPhone 13 Pro Max",
+      "price": "380.000",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Celulares/celu_2.jpg",
+      "category": "celulares"
+    },
+    {
+      "id": 19,
+      "title": "Samsung Galaxy S21",
+      "price": "124.000",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Celulares/celu_3.webp",
+      "category": "celulares"
+    },
+    {
+      "id": 20,
+      "title": "Samsung Galaxy S22 Ultra",
+      "price": "229.000",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Celulares/celu_4.jpg",
+      "category": "celulares"
+    },
+    {
+      "id": 21,
+      "title": "Xiaomi Pocophone Poco X3",
+      "price": "82.300",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Celulares/celu_5.png",
+      "category": "celulares"
+    },
+    {
+      "id": 22,
+      "title": "Nintendo Switch Standard",
+      "price": "79.999",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Consolas/consola_1.png",
+      "category": "consolas"
+    },
+    {
+      "id": 23,
+      "title": "Sony PlayStation 4 Slim",
+      "price": "113.800",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Consolas/consola_2.jpg",
+      "category": "consolas"
+    },
+    {
+      "id": 24,
+      "title": "Sony PlayStation 5 Digital Edition",
+      "price": "245.000",
+      "descrip_1": "320GB Slim",
+      "image": "/img/categorias/Consolas/consola_3.jpg",
+      "category": "consolas"
+    }
+  ]
+}
