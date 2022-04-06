@@ -120,7 +120,6 @@ class UI {
     </div>
       `;
     });
-
     productosDOM.innerHTML = result;
   }
 
