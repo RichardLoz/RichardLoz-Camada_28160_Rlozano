@@ -36,7 +36,7 @@
     <!-- Menu -->
     <nav
       class="navbar navbar-expand-lg navbar-light sticky-top"
-      style="background-color: #54b9ac"
+      style="background-color: rgb(213, 236, 82)"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">Sky-Importaciones</a>
@@ -56,43 +56,14 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
-            <li class="nav-item dropdown" id="category">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Categorias
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdown"
-                id="category"
-                onclick="categoryValue()"
-              >
-                <li>
-                  <a class="dropdown-item" href="#" value="drone">Drones</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#" value="celulares"
-                    >Celulares</a
-                  >
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Proximamente</a>
-                </li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#nosotros">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Ofertas</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="productos.html">Productos</a>
             </li>
           </ul>
           <ul class="nav__list">
@@ -150,21 +121,21 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="./img/carrousel/notebook.jpg"
+            src="./img/carrousel/carousel_3.jpg"
             class="d-block w-100"
             alt="..."
           />
         </div>
         <div class="carousel-item">
           <img
-            src="./img/carrousel/drone_2.jpg"
+            src="./img/carrousel/carrousel_1.jpg"
             class="d-block w-100"
             alt="..."
           />
         </div>
         <div class="carousel-item">
           <img
-            src="./img/carrousel/smartwatch.jpg"
+            src="./img/carrousel/carousel_2.jpg"
             class="d-block w-100"
             alt="..."
           />
@@ -190,47 +161,157 @@
       </button>
     </div>
 
-    <!-- BARRA BUSQUEDA -->
+    <!-- NOSOTROS -->
+    <main>
+      <div class="seccion nosotros text-center" id="nosotros">
+        <div class="container">
+          <h3 class="text-uppercase">Bienvenido a Sky-Importaciones</h3>
+          <p class="parrafo mb-5">
+            Somos una empresa nacional que se dedica a la importacion de
+            productos, principalmente desde China & EEUU. Con nuestra politica
+            de Calidad, Garantia y Reembolso podras sentir la confianza de
+            comprar
+            <strong>eso</strong> que tanto deseas, nosotros nos ocupamos del
+            resto
+          </p>
+          <hr />
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card text-dark border-light bg-light mb-3">
+                <div class="card-body">
+                  <span class="icono">
+                    <i class="bx bxs-plane-alt"></i>
+                  </span>
+                  <p class="icono-servicio">Servicio Aereo</p>
+                  <p class="font-weight-bold text-uppercase">
+                    <a href="#" class="text-decoration-none">Ver mas</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card text-dark border-light bg-light mb-3">
+                <div class="card-body">
+                  <span class="icono">
+                    <i class="bx bxs-ship"></i>
+                  </span>
+                  <p class="icono-servicio">Servicio Maritino</p>
+                  <p class="font-weight-bold text-uppercase">
+                    <a href="#" class="text-decoration-none">Ver mas</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card text-dark border-light bg-light mb-3">
+                <div class="card-body">
+                  <span class="icono">
+                    <i class="bx bxs-car"></i>
+                  </span>
+                  <p class="icono-servicio">Servicio Puerta a Puerta</p>
+                  <p class="font-weight-bold text-uppercase">
+                    <a href="#" class="text-decoration-none">Ver mas</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /NOSOTROS -->
+
+      <!-- NEWSLETTER -->
+      <div class="bg-seccion text-center" id="contacto">
+        <form action="">
+          <h2>Unete a nuestro Newsletter</h2>
+          <p>
+            Aprovecha los increibles descuentos en productos y bonificacion en
+            gastos de envio que ofrecemos a nuestros suscriptores.
+          </p>
+          <div class="email-box">
+            <i class="bx bxs-envelope"></i>
+            <input
+              class="tbox"
+              type="email"
+              placeholder="Ingrese su correo electronico"
+            />
+            <button class="btn_2" type="button" name="button">
+              Subscribirse
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <!-- /NEWSLETTER -->
+
+    <!-- CATEGORIAS -->
+    <div class="seccion nosotros text-center" id="nosotros">
+      <div class="container">
+        <h3 class="text-uppercase">Nuestros Productos</h3>
+        <hr />
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card text-dark border-light bg-light mb-3 card h-100">
+              <div class="card-body">
+                <span class="icono">
+                  <img src="./img/body/cate_deporte.jpg" alt="" />
+                </span>
+                <p class="icono-servicio">Deportes</p>
+                <p class="font-weight-bold text-uppercase">
+                  <a href="#" class="text-decoration-none">Ver mas</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card text-dark border-light bg-light mb-3 card h-100">
+              <div class="card-body">
+                <span class="icono">
+                  <img src="./img/body/cate_smartw.jpg" alt="" />
+                </span>
+                <p class="icono-servicio">SmartWatch</p>
+                <p class="font-weight-bold text-uppercase">
+                  <a href="#" class="text-decoration-none">Ver mas</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card text-dark border-light bg-light mb-3 card h-100">
+              <div class="card-body">
+                <span class="icono">
+                  <img src="./img/body/cate_salud.jpg" alt="" />
+                </span>
+                <p class="icono-servicio">Salud</p>
+                <p class="font-weight-bold text-uppercase">
+                  <a href="#" class="text-decoration-none">Ver mas</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /CATEGORIAS -->
 
     <!-- PRODUCTOS -->
     <section class="productos">
       <div class="productos__center row"></div>
     </section>
+    <!-- /PRODUCTOS -->
 
     <!-- CARRITO -->
-
     <section class="carrito__overlay">
       <div class="carrito">
         <span class="close__carrito">
           <i class="bx bx-x"></i>
         </span>
         <h1>Su Carrito</h1>
-        <div class="carrito__center">
-          <!-- <div class="carrito__item">
-
-            <img src="https://cdn4.chrono24.com/images/topmodels/2875-7wlcl6ogfoc0qxg22ox6up9m-Original.png?auto=compress&amp;h=305" alt="reloj">
-            <div>
-              <h3>Relojes Originales </h3>
-              <p class="price">$122</p>
-            </div>
-            <div>
-              <span>
-                <i class="bx bxs-up-arrow"></i>
-              </span>
-              <p>1</p>
-              <span>
-                <i class="bx bxs-down-arrow"></i>
-              </span>
-            </div>
-            <div>
-              <span class="remove__item">
-                <i class="bx bx-trash"></i>
-              </span>
-            </div>
-
-            
-          </div> -->
-        </div>
+        <div class="carrito__center"></div>
         <div class="carrito__footer">
           <h3>Total: $ <span class="carrito__total">0 </span></h3>
           <buttom class="clear__carrito btn">Remover carrito</buttom>
@@ -238,10 +319,241 @@
         </div>
       </div>
     </section>
+    <!-- /CARRITO -->
 
-    <footer class="bg-dark p-3 mt-5">
-      <p class="text-center m-0 text-muted">Sky-Importaciones</p>
+    <!-- DESCUENTO -->
+    <div class="banner-container">
+      <div class="banner">
+        <div class="shoe">
+          <img src="./img/home/shoe.png" alt="" />
+        </div>
+        <div class="content">
+          <span>Descuento</span>
+          <h3>50% en ZAPATILLAS</h3>
+          <p>8,9 y 10 de Abril</p>
+          <a href="" class="btn__descuento">Comprar</a>
+        </div>
+        <div class="women">
+          <img src="./img/home/women.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- /DESCUENTO -->
+
+    <!-- TESTIMONIOS -->
+    <section class="testimonios">
+      <div class="testimonios__header">
+        <span>Comentarios</span>
+        <h2>Nuestros clientes</h2>
+      </div>
+      <!-- TESTIMONIOS CONTENEDOR -->
+      <div class="testimonios__contenedor">
+        <div class="testimonios__caja">
+          <div class="caja-top">
+            <div class="perfil">
+              <div class="perfil-img">
+                <img src="https://i.pravatar.cc/150?img=1" alt="" />
+              </div>
+              <div class="name-user">
+                <strong>Daniela Torres</strong>
+                <span>@Dtorres</span>
+              </div>
+            </div>
+            <div class="resenas">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+          </div>
+          <div class="comentarios__clientes">
+            <p>
+              Me encanto el celular que compre en Sky, llego en tiempo y
+              forma.Sin dudas lo recomendare
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- CAJA2 -->
+      <div class="testimonios__contenedor">
+        <div class="testimonios__caja">
+          <div class="caja-top">
+            <div class="perfil">
+              <div class="perfil-img">
+                <img src="https://i.pravatar.cc/150?img=43" alt="" />
+              </div>
+              <div class="name-user">
+                <strong>Sophia Lozano</strong>
+                <span>@Sophiloz</span>
+              </div>
+            </div>
+            <div class="resenas">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+          </div>
+          <div class="comentarios__clientes">
+            <p>Compre el Dron DJI Mavic, muy buen producto, 100% conforme</p>
+          </div>
+        </div>
+      </div>
+      <!-- CAJA3 -->
+      <div class="testimonios__contenedor">
+        <div class="testimonios__caja">
+          <div class="caja-top">
+            <div class="perfil">
+              <div class="perfil-img">
+                <img src="https://i.pravatar.cc/150?img=12" alt="" />
+              </div>
+              <div class="name-user">
+                <strong>Kevin Atencia</strong>
+                <span>@Kevinaxo</span>
+              </div>
+            </div>
+            <div class="resenas">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+          </div>
+          <div class="comentarios__clientes">
+            <p>
+              Pase por el local y me encanto la atencion y la buena onda.
+              Recomendado
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- CAJA4 -->
+      <div class="testimonios__contenedor">
+        <div class="testimonios__caja">
+          <div class="caja-top">
+            <div class="perfil">
+              <div class="perfil-img">
+                <img src="https://i.pravatar.cc/150?img=37" alt="" />
+              </div>
+              <div class="name-user">
+                <strong>Astrid Lozano</strong>
+                <span>@Tatiloz</span>
+              </div>
+            </div>
+            <div class="resenas">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+          </div>
+          <div class="comentarios__clientes">
+            <p>Ya compre unos Auris, me llegan manana. Super emocionada</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /TESTIMONIOS -->
+    <hr />
+
+    <!-- MAPA CONTACTO -->
+    <!--   <section>
+      <h2 class="text-center">Mapa de contacto</h2>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.4786100219153!2d-58.48925398423837!3d-34.54143546171348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6c76c7f96ad%3A0xa7da22e9b56a80e8!2sArist%C3%B3bulo%20del%20Valle%202344%2C%20B1602%20Florida%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1649128716836!5m2!1ses-419!2sar"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section> -->
+    <!-- /MAPA CONTACTO -->
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-3 mb-5">
+            <h2>Sky</h2>
+            <p>
+              Empresa dedicada a importar productos desde el exterior. Contamos
+              con servicio Maritimo, Aereo y puerta a puerta. <br />
+              Contamos con un servicio exclusivo para que puedas monitorear tu
+              producto desde el momento en que lo compras.
+            </p>
+          </div>
+
+          <div class="col-md-3 mb-5">
+            <h2>Contacto</h2>
+            <ul class="list-unstyled footer-link">
+              <li class="d-flex">
+                <span class="me-3">Direccion:</span
+                ><span class="text-white">Aristobulo del Valle 2344</span>
+              </li>
+              <li class="d-flex">
+                <span class="me-3">Telefono:</span
+                ><span class="text-white">1158172441</span>
+              </li>
+              <li class="d-flex">
+                <span class="me-3">Email:</span
+                ><span class="text-white">ventas@skyimportaciones.com</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 mb-5">
+            <h2>Categorias</h2>
+            <ul class="list-unstyled footer-link">
+              <li><a href="#">Hogar</a></li>
+              <li><a href="#">Tecnologia</a></li>
+              <li><a href="#">Ropa</a></li>
+              <li><a href="#">Zapatos</a></li>
+              <li><a href="#">Salud</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h2>Redes Sociales</h2>
+            <ul class="list-unstyled footer-link d-flex footer-social">
+              <li>
+                <a href=""><i class="bx bxl-facebook-circle"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="bx bxl-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="bx bxl-instagram-alt"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="bx bxl-linkedin-square"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="bx bxl-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-md-center">
+            <p>
+              Esta pagina fue creada por Ricardo Lozano
+              <i class="bx bxs-shopping-bag"></i>
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
+
+    <!-- /FOOTER -->
 
     <!-- IMPORTACION DE BOXICONS -->
     <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
