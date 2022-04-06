@@ -327,8 +327,10 @@ function categoryValue() {
   if (category.length > 0) {
     const producto = productos.filter((regx) => regx.category === category);
     ui.renderProductos(producto);
+    ui.getButtons();
   } else {
     ui.renderProductos(productos);
+    ui.getButtons();
   }
 }
 
@@ -344,7 +346,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   productos = await productosLista.getProductos();
   if (id) {
     ui.detallesProducto(id);
-    ui.renderProductos(productos);
     Storage.saveProduct(productos);
     ui.getButtons();
     ui.cartLogic();
