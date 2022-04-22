@@ -356,3 +356,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     ui.cartLogic();
   }
 });
+
+// TODO: ALERTA AL MOMENTO DE COMPRAR
+function confirmar() {
+  alert("Gracias por su compra");
+}
